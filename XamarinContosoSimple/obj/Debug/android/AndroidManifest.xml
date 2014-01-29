@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="Lists6.Lists6">
+  <uses-sdk android:minSdkVersion="15" />
+  <application android:label="Lists5" android:icon="@drawable/ic_launcher" android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:label="Customer Detail" android:name="evolvelistview.ActivityCustomerDetail" />
+    <activity android:icon="@drawable/ic_launcher" android:label="My Customers" android:name="evolvelistview.ActivityMyCustomers" />
+    <activity android:icon="@drawable/ic_launcher" android:label="My appointments" android:name="evolvelistview.ActivityMyAppointments" />
+    <activity android:label="Appointment Detail" android:name="evolvelistview.ActivityAppointmentDetail" />
+    <activity android:icon="@drawable/ic_launcher" android:label="Contoso Insurance" android:name="evolvelistview.ActivityMain" />
+    <activity android:label="Login" android:name="evolvelistview.ActivityLogin" />
+    <activity android:label="Web Authenticator" android:name="xamarin.auth.FormAuthenticatorActivity" />
+    <activity android:label="Web Authenticator" android:name="xamarin.auth.WebAuthenticatorActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Lists6.Lists6.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.Lists6.Lists6" />
+      </intent-filter>
+    </receiver>
+    <activity android:icon="@drawable/ic_launcher" android:label="Contoso Insurance" android:name="lists6.lists6.TrialSplashScreen" android:theme="@style/Mono.Android.Theme.Splash" android:noHistory="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+  </application>
+  <uses-permission android:name="android.permission.INTERNET" />
+</manifest>
