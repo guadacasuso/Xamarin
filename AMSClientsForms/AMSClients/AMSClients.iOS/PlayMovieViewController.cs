@@ -31,6 +31,7 @@ namespace AMSClients.iOS
 			base.ViewDidLoad ();
 
             LoadVideos();
+            playMovie.SetTitle("Azure Media Services", UIControlState.Normal);
 			playMovie.TouchUpInside += delegate {
 			moviePlayer = new MPMoviePlayerController (NSUrl.FromString (_videos[1].Url));
             Console.Write(_videos[1].Url);
