@@ -1,0 +1,14 @@
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\AMSServices\bin\AMSServices.dll.config
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\AMSServices\bin\AMSServices.dll
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\AMSServices\bin\AMSServices.pdb
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\AMSServices\bin\Newtonsoft.Json.dll
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\AMSServices\bin\System.Net.Http.Formatting.dll
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\AMSServices\bin\System.Web.Http.dll
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\AMSServices\bin\System.Web.Http.WebHost.dll
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\AMSServices\bin\Newtonsoft.Json.xml
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\AMSServices\bin\System.Net.Http.Formatting.xml
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\AMSServices\bin\System.Web.Http.xml
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\AMSServices\bin\System.Web.Http.WebHost.xml
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\AMSServices\obj\Debug\AMSServices.csprojResolveAssemblyReference.cache
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\AMSServices\obj\Debug\AMSServices.dll
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\AMSServices\obj\Debug\AMSServices.pdb

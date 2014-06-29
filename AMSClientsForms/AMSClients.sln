@@ -11,6 +11,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMSClients.Android", "AMSCl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMSClients.WinPhone", "AMSClients\AMSClients.WinPhone\AMSClients.WinPhone.csproj", "{9D2BFCB5-2628-49FC-91EF-BCBCACDCE034}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMSServices", "AMSServices\AMSServices.csproj", "{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{5AAD8BE1-A68A-436A-BC0D-24BE3DAFDE4F}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{87C7BB8D-26AB-43F3-9377-D755157E3780}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\AMSServices-WAWS-dev.json = PublishScripts\Configurations\AMSServices-WAWS-dev.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
@@ -215,8 +228,43 @@ Global
 		{9D2BFCB5-2628-49FC-91EF-BCBCACDCE034}.Release|x86.ActiveCfg = Release|x86
 		{9D2BFCB5-2628-49FC-91EF-BCBCACDCE034}.Release|x86.Build.0 = Release|x86
 		{9D2BFCB5-2628-49FC-91EF-BCBCACDCE034}.Release|x86.Deploy.0 = Release|x86
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Ad-Hoc|ARM.ActiveCfg = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Ad-Hoc|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Ad-Hoc|Mixed Platforms.Build.0 = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Ad-Hoc|x86.ActiveCfg = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.AppStore|ARM.ActiveCfg = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.AppStore|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.AppStore|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.AppStore|Mixed Platforms.Build.0 = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.AppStore|x86.ActiveCfg = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Release|ARM.ActiveCfg = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A512B3CC-CA4F-41BC-AB92-CB29BDBEB766}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87C7BB8D-26AB-43F3-9377-D755157E3780} = {5AAD8BE1-A68A-436A-BC0D-24BE3DAFDE4F}
 	EndGlobalSection
 EndGlobal
