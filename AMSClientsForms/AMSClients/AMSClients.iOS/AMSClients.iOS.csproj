@@ -79,9 +79,9 @@
     <Compile Include="AppDelegate.cs" />
     <None Include="app.config" />
     <None Include="Info.plist" />
-    <Compile Include="PlayMovieRecipeViewController.cs" />
-    <Compile Include="PlayMovieRecipeViewController.designer.cs">
-      <DependentUpon>PlayMovieRecipeViewController.cs</DependentUpon>
+    <Compile Include="PlayMovieViewController.cs" />
+    <Compile Include="PlayMovieViewController.designer.cs">
+      <DependentUpon>PlayMovieViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="packages.config" />

@@ -1,17 +1,20 @@
 using System;
 using System.Drawing;
-
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 using MonoTouch.MediaPlayer;
+using AMSClients.Model;
+using System.Collections.ObjectModel;
+
 
 namespace AMSClients.iOS
 {
-	public partial class PlayMovieRecipeViewController : UIViewController
+	public partial class PlayMovieViewController : UIViewController
 	{
 		MPMoviePlayerController moviePlayer;
+        ObservableCollection<Video> _videos = new ObservableCollection<Video>();
 
-		public PlayMovieRecipeViewController () : base ("PlayMovieRecipeViewController", null)
+		public PlayMovieViewController () : base ("PlayMovieRecipeViewController", null)
 		{
 		}
         
@@ -27,15 +30,24 @@ namespace AMSClients.iOS
 		{
 			base.ViewDidLoad ();
 
-
+            LoadVideos();
 			playMovie.TouchUpInside += delegate {
-				moviePlayer = new MPMoviePlayerController (NSUrl.FromFilename ("sample.m4v"));
-
+			moviePlayer = new MPMoviePlayerController (NSUrl.FromString (_videos[1].Url));
+            Console.Write(_videos[1].Url);
 				View.AddSubview (moviePlayer.View);
 				moviePlayer.SetFullscreen (true, true);
 				moviePlayer.Play ();
 			};
 		}
+
+        void LoadVideos()
+        {
+            if (_videos.Count == 0)
+            {
+                _videos = App.Videos;
+            }
+        }
+         
         
 		public override void ViewDidUnload ()
 		{

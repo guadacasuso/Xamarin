@@ -8,8 +8,8 @@ using MonoTouch.Foundation;
 
 namespace AMSClients.iOS
 {
-	[Register ("PlayMovieRecipeViewController")]
-	partial class PlayMovieRecipeViewController
+	[Register ("PlayMovieViewController")]
+	partial class PlayMovieViewController
 	{
 		[Outlet]
 		MonoTouch.UIKit.UIButton playMovie { get; set; }

@@ -17,7 +17,7 @@ namespace AMSClients.iOS
     {
         // class-level declarations
         UIWindow window;
-        PlayMovieRecipeViewController viewController;
+        PlayMovieViewController viewController;
         //
         // This method is invoked when the application has loaded and is ready to run. In this 
         // method you should instantiate the window, load the UI into it and then make the window
@@ -31,7 +31,7 @@ namespace AMSClients.iOS
 
             window = new UIWindow(UIScreen.MainScreen.Bounds);
 
-            viewController = new PlayMovieRecipeViewController();
+            viewController = new PlayMovieViewController();
             window.RootViewController = viewController;
             window.MakeKeyAndVisible();
 
