@@ -99,23 +99,6 @@ namespace AMSClients.Views
             return saveButton;
         }
 
-        /// <summary>
-        ///   Create the save button and assing an event handler to the Clicked event.
-        /// </summary>
-        /// <returns>The save button.</returns>
-        View CreateSaveButton()
-        {
-            Button saveButton = new Button
-            {
-                Text = "Save",
-                BorderRadius = 5,
-                TextColor = Color.White,
-                BackgroundColor = Colours.BackgroundGrey
-            };
-
-            saveButton.Clicked += async (sender, e) => Navigation.PopAsync();
-            return saveButton;
-        }
 
         /// <summary>
         ///   Create the delete button and setup the data binding to invoke the DeleteVideoCommand.

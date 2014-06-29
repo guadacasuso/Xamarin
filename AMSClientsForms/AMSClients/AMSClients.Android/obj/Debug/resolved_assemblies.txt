@@ -1,9 +1,9 @@
-c:\users\gcasuso\documents\visual studio 2013\Projects\AMSClients\AMSClients\AMSClients.Android\bin\Debug\AMSClients.Android.dll
-c:\users\gcasuso\documents\visual studio 2013\Projects\AMSClients\AMSClients\AMSClients\bin\Debug\AMSClients.dll
-c:\users\gcasuso\documents\visual studio 2013\Projects\AMSClients\packages\Xamarin.Android.Support.v4.19.0.2\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll
-c:\users\gcasuso\documents\visual studio 2013\Projects\AMSClients\packages\Xamarin.Forms.1.0.6186\lib\MonoAndroid10\Xamarin.Forms.Core.dll
-c:\users\gcasuso\documents\visual studio 2013\Projects\AMSClients\packages\Xamarin.Forms.1.0.6186\lib\MonoAndroid10\Xamarin.Forms.Platform.Android.dll
-c:\users\gcasuso\documents\visual studio 2013\Projects\AMSClients\packages\Xamarin.Forms.1.0.6186\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\AMSClients\AMSClients.Android\bin\Debug\AMSClients.Android.dll
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\AMSClients\AMSClients\bin\Debug\AMSClients.dll
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\packages\Xamarin.Android.Support.v4.19.0.2\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\packages\Xamarin.Forms.1.0.6186\lib\MonoAndroid10\Xamarin.Forms.Core.dll
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\packages\Xamarin.Forms.1.0.6186\lib\MonoAndroid10\Xamarin.Forms.Platform.Android.dll
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\packages\Xamarin.Forms.1.0.6186\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Collections.Concurrent.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Collections.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.ComponentModel.Annotations.dll
@@ -50,6 +50,6 @@ C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Xml.ReaderWriter.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Xml.XDocument.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Xml.XmlSerializer.dll
-c:\users\gcasuso\documents\visual studio 2013\Projects\AMSClients\AMSClients\AMSClients.Android\bin\Debug\System.Net.Http.Formatting.dll
-c:\users\gcasuso\documents\visual studio 2013\Projects\AMSClients\AMSClients\AMSClients.Android\bin\Debug\System.Net.Http.Primitives.dll
-c:\users\gcasuso\documents\visual studio 2013\Projects\AMSClients\AMSClients\AMSClients\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\AMSClients\AMSClients.Android\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\AMSClients\AMSClients.Android\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\gcasuso\Documents\GitHub\Xamarin\AMSClientsForms\AMSClients\AMSClients\bin\Debug\Newtonsoft.Json.dll
